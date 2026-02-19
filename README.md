@@ -8,7 +8,7 @@
 
 ## 📱 About The Project
 
-PetKare is an Android application designed to help pet owners manage their pets’ health and daily care in a smart and organized way. The app allows users to store pet details, track vaccination and medical records, set reminders, and follow basic pet care guidelines. The goal of this project is to provide a simple digital solution so pet owners never miss important health updates for their pets.
+PetKare is an Android application designed to help pet owners easily book pet-related services in a simple and organized way. The app allows users to browse available services such as grooming, veterinary appointments, and other pet care services, and book them directly through the application. It provides a smooth user experience with easy navigation, service selection, and booking confirmation. The main goal of this project is to offer a convenient digital platform that simplifies the process of scheduling and managing pet service appointments.
 
 - 🔭 I’m currently working on [PetKare – Android Pet Care Management App](https://github.com/jaswanth-abhishek/PetKare)
 
