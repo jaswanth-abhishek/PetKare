@@ -1,6 +1,15 @@
 <h1 align="center">Hi 👋, I'm Jaswanth</h1>
 <h3 align="center">AI & Data Science Enthusiast</h3>
 
+<h1 align="center">🐾 PetKare – Android Pet Care Management App</h1>
+<h3 align="center">Smart Pet Health & Care Tracker built using Kotlin</h3>
+
+---
+
+## 📱 About The Project
+
+PetKare is an Android application designed to help pet owners manage their pets’ health and daily care in a smart and organized way. The app allows users to store pet details, track vaccination and medical records, set reminders, and follow basic pet care guidelines. The goal of this project is to provide a simple digital solution so pet owners never miss important health updates for their pets.
+
 - 🔭 I’m currently working on [PetKare – Android Pet Care Management App](https://github.com/jaswanth-abhishek/PetKare)
 
 - 🌱 I’m currently learning **LLM Engineering, Generative AI, Android Development**
