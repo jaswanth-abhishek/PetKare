@@ -2,7 +2,7 @@
 <h3 align="center">AI & Data Science Enthusiast</h3>
 
 <h1 align="center">🐾 PetKare – Android Pet Care Management App</h1>
-<h3 align="center">Smart Pet Health & Care Tracker built using Kotlin</h3>
+<h3 align="center">Smart Pet Care Tracker built using Kotlin</h3>
 
 ---
 
