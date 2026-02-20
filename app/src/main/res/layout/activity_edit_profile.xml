@@ -91,6 +91,7 @@
             android:layout_marginTop="8dp"
             android:background="@drawable/bg_edit_text"
             android:padding="12dp"
+            android:id="@+id/et_edit_name"
             android:text="Asha Sharma" />
 
         <TextView

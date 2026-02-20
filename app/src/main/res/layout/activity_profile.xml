@@ -48,6 +48,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/tv_profile_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Asha S."
@@ -56,6 +57,7 @@
                         android:textColor="#000000"/>
 
                     <TextView
+                        android:id="@+id/tv_profile_email"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="asha@example.com"
@@ -308,5 +310,4 @@
                 android:layout_marginTop="4dp"/>
         </LinearLayout>
     </LinearLayout>
-
 </LinearLayout>
