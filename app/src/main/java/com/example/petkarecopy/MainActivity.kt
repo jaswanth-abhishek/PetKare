@@ -13,12 +13,10 @@ class MainActivity : AppCompatActivity() {
         if (token != null) {
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
-            finish()
-        }
-        else {
+        } else {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
-            finish()
         }
+        finish()
     }
 }
