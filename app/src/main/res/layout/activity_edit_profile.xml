@@ -125,4 +125,15 @@
             android:padding="12dp"
             android:hint="asha@example.com" />
     </LinearLayout>
+    <TextView
+        android:id="@+id/btn_go_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:textColor="#2979FF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_marginTop="24dp" />
 </LinearLayout>
