@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.petkare.SignupActivity
+import com.example.petkarecopy.SignupActivity
 
 class LoginActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
