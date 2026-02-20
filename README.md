@@ -10,7 +10,7 @@
 
 PetKare is a clean, user-friendly Android application designed to connect pet owners with local pet sitters. It provides a seamless interface for users to search for available sitters based on location, dates, and their specific pets. Additionally, it serves as a "Household Hub" where users can manage their personal profiles, add multiple pets, and save various service addresses.
 
-Note: This repository currently contains the UI Prototype and Navigation Flow built natively in Android.
+
 
 ✨ Features
 Authentication UI: Clean Login and Registration screens.
