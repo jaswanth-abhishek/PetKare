@@ -8,13 +8,6 @@
 
 ## 📱 About The Project
 
-Gemini said
-Here is a professional and structured README.md template for your GitHub repository. It covers the project description, the overall flow we built, the tech stack, and how to run it.
-
-You can just copy and paste this directly into your GitHub README.md file!
-
-🐾 PetKare - Pet Sitting & Management App
-📱 Project Description
 PetKare is a clean, user-friendly Android application designed to connect pet owners with local pet sitters. It provides a seamless interface for users to search for available sitters based on location, dates, and their specific pets. Additionally, it serves as a "Household Hub" where users can manage their personal profiles, add multiple pets, and save various service addresses.
 
 Note: This repository currently contains the UI Prototype and Navigation Flow built natively in Android.
