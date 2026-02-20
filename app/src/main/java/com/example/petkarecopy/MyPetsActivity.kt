@@ -20,7 +20,6 @@ class MyPetsActivity : AppCompatActivity() {
             val intent=Intent(this, CreatePetActivity::class.java)
             startActivity(intent)
         }
-
         val cardPet1=findViewById<LinearLayout>(R.id.card_pet_1)
         cardPet1.setOnClickListener {
             val intent=Intent(this, EditPetActivity::class.java)
