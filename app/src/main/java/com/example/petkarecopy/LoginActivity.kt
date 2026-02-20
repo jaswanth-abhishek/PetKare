@@ -13,13 +13,12 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-        // Login -> Home
+
         findViewById<Button>(R.id.btn_login).setOnClickListener {
             startActivity(Intent(this, HomeActivity::class.java))
             finish()
         }
 
-        // Create Account -> SignupActivity
         findViewById<TextView>(R.id.tv_create_account).setOnClickListener {
             startActivity(Intent(this, SignupActivity::class.java))
         }
