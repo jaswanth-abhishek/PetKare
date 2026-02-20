@@ -8,7 +8,40 @@
 
 ## 📱 About The Project
 
-PetKare is an Android application designed to help pet owners easily book pet-related services in a simple and organized way. The app allows users to browse available services such as grooming, veterinary appointments, and other pet care services, and book them directly through the application. It provides a smooth user experience with easy navigation, service selection, and booking confirmation. The main goal of this project is to offer a convenient digital platform that simplifies the process of scheduling and managing pet service appointments.
+Gemini said
+Here is a professional and structured README.md template for your GitHub repository. It covers the project description, the overall flow we built, the tech stack, and how to run it.
+
+You can just copy and paste this directly into your GitHub README.md file!
+
+🐾 PetKare - Pet Sitting & Management App
+📱 Project Description
+PetKare is a clean, user-friendly Android application designed to connect pet owners with local pet sitters. It provides a seamless interface for users to search for available sitters based on location, dates, and their specific pets. Additionally, it serves as a "Household Hub" where users can manage their personal profiles, add multiple pets, and save various service addresses.
+
+Note: This repository currently contains the UI Prototype and Navigation Flow built natively in Android.
+
+✨ Features
+Authentication UI: Clean Login and Registration screens.
+
+Sitter Search: A dynamic home dashboard allowing users to input search criteria (Location, Pet, Dates) to find sitters.
+
+Available Sitters List: A clean card-based list displaying sitter profiles, ratings, and pricing.
+
+Profile Management: A centralized hub to edit user details and switch to "Sitter Mode".
+
+Pet Management (CRUD UI): Screens to view a list of pets, add new pets, and edit or delete existing pet profiles (including details like breed, age, and nature).
+
+🛠️ Tech Stack
+Language: Kotlin
+
+UI/Layouts: XML (Extensive use of LinearLayout, ScrollView, and CardView)
+
+IDE: Android Studio
+
+Architecture: Native Android UI with Intent-based navigation
+
+
+
+
 
 - 🔭 I’m currently working on [PetKare – Android Pet Care Management App](https://github.com/jaswanth-abhishek/PetKare)
 
