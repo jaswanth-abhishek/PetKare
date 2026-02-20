@@ -51,12 +51,6 @@ class ProfileActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.btn_edit_profile).setOnClickListener {
             startActivity(Intent(this, EditProfileActivity::class.java))
         }
-        findViewById<View>(R.id.nav_home).setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java)
-            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
-            startActivity(intent)
-            finish()
-        }
         findViewById<TextView>(R.id.btn_logout).setOnClickListener {
             prefs.edit().remove("authToken").apply()
             if (token != null) {
@@ -73,5 +67,21 @@ class ProfileActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        findViewById<View>(R.id.nav_home).setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(intent)
+            overridePendingTransition(0, 0)
+        }
+
+        // Placeholder for Bookings Tab
+        /*
+        findViewById<View>(R.id.nav_bookings).setOnClickListener {
+            val intent = Intent(this, BookingsActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(intent)
+            overridePendingTransition(0, 0)
+        }
+        */
     }
 }
